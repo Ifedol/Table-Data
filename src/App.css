@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+table{
+  width: 100%;
+}
+table th,
+table td{
+  border-bottom: 1px solid #ccc;
+  padding: 4px 8px;
+  text-align: left;
+}
+button {
+  padding: 2px 4px;
+  font-size: 12px;
+  margin-right: 2px;
+}
+.data-form form{
+       display: flex;
+       flex-wrap: wrap;
+       background: #eee;
+       align-items: flex-end;
+       padding: 10px;
+       margin-top: 20px;
+}
+.data-form form >div{
+  width: 50%;
+  padding: 4px 10px;
+}
+.data-form label{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.data-form input,
+.data-form select,
+.data-form label{
+  display: block;
+  width: 100%;
+}
+.edit {
+  padding: 2px;
+  border: 1px solid green;
+  color: white;
+  background-color: green;
+}
+.delete, .cancel {
+  padding: 2px;
+  border: 1px solid red;
+  color: white;
+  background-color: red;
+}
+.submit {
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #000;
+}
