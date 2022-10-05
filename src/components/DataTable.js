@@ -18,11 +18,6 @@ const rawData = [
         age: 31,
         gender: "Female"
     }
-    {
-        name: "Tola",
-        age: 21,
-        gender: "Female"
-    }
 ]
 export const DataTable = () => {
     const [tableData, setTableData] = useState(rawData)
