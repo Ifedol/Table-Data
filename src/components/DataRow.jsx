@@ -1,4 +1,5 @@
-export const DataRow = ({rowData,index, onDelete, onEdit}) => {
+import React from "react"
+const DataRow = ({rowData,index, onDelete, onEdit}) => {
     return (
         <tr>
         <td>{rowData.name}</td>
@@ -15,3 +16,5 @@ export const DataRow = ({rowData,index, onDelete, onEdit}) => {
     </tr>
     )
 }
+
+export default DataRow

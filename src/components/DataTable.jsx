@@ -1,6 +1,6 @@
-import { useState } from "react"
-import { DataForm } from "./DataForm"
-import { DataRow } from "./DataRow"
+import React, { useState } from "react"
+import DataForm from "./DataForm"
+import DataRow from "./DataRow"
 
 const rawData = [
     {

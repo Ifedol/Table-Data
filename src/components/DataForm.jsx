@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react"
+import React, { useEffect, useState} from "react"
 
-export const DataForm = ({ onCreate, onCancel, onUpdate, data, update=false }) => {
+const DataForm = ({ onCreate, onCancel, onUpdate, data, update=false }) => {
     const [name, setName] = useState("")
     const [age, setAge] = useState(18)
     const [gender, setGender] = useState("Male")
@@ -58,3 +58,5 @@ export const DataForm = ({ onCreate, onCancel, onUpdate, data, update=false }) =
         </div>
     )
 }
+
+export default DataForm;
